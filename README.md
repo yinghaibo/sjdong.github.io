@@ -1,5 +1,3 @@
-sjdong.github.io
+www.beiketan.com
 ================
-个人记录
-
-前端、Node.js、.Net等开发问题以及项目
+个人站，记录、分享学习过程

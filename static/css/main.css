@@ -1,0 +1,194 @@
+body,
+div,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+span,
+i,
+em,
+img,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+body, button, input, textarea, select {
+  font: 13px/1.5 Consolas, 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  color: #333;
+}
+
+em, i {
+  font-style: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+a, a:active, :active:visited {
+  color: #555;
+  outline: none;
+  hidefocus: true;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #e37fb9;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.btn-primary {
+  background-color: #428bca;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  background-color: #357EBD;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #f8a31f
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+  background-color: #f88a2a;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #d9534f
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
+  background-color: #e51400;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #5cb85c;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+  background-color: #4CAE4C;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #00aba9
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
+  background-color: #007877;
+  color: #fff;
+}
+
+.btn-inverse {
+  background-color: #484848
+}
+
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
+  background-color: #333333;
+  color: #fff;
+}
+
+.btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn.btn-sm {
+  height: 22px;
+  line-height: 22px;
+}
+
+.btn-lg {
+  height: 38px;
+  line-height: 38px;
+}
+.btn.btn-block {
+  display: block;
+  padding:0;
+  text-align: center;
+}
+.clearfix, .input-group, .form-row {
+  *zoom: 1;
+}
+
+.clearfix:before, .input-group:before, .form-row:before
+.clearfix:after, .input-group:after, .form-row:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after, .input-group:after, .form-row:after {
+  clear: both;
+}
+.clr {
+  clear: both;
+}
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*global page defined*/
+.topbar {
+  height: 30px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#f0f0f0));
+  background: -webkit-linear-gradient(top, bottom, from(#f7f7f7), to(#f0f0f0));
+  background: -moz-gradient;
+  width: 100%;
+}
+.header {
+
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.footer {
+
+}
